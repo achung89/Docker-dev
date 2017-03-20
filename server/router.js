@@ -3,11 +3,11 @@ module.exports = function(express) {
 
   var router = express.Router();
 
-  router.use(express.static(path.join( __dirname, '../client')));
+  router.use(express.static(path.join( __dirname, '../dist')));
   router.get('/',(req,res)=>{ 
     console.log('index.html request')
     res.sendFile(path.join(__dirname,'../client', 'index.html'))
   });
-  
+
   return router;
 }

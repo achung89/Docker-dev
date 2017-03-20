@@ -18,7 +18,14 @@
   },
   "homepage": "https://github.com/achung89/Docker-dev#readme",
   "dependencies": {
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
     "babel-polyfill": "^6.23.0",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.2"
   }
 }
