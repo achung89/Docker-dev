@@ -12,6 +12,6 @@ services:
       - "8080:8080"
     environment:
       # - CHOKIDAR_USEPOLLING=true
-    #  pull request still in process
+    #  pull request still in progress
     # - CHOKIDAR_INTERVAL=1000
     command: npm run dev
